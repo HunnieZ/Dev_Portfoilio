@@ -1,33 +1,6 @@
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
-/* * {
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    font-family: 'Unica One', sans-serif;
-    background: #111;
-  }
-  
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 5rem;
-  }
-  
-  .heading {
-    color: #eee;
-    font-size: 5rem;
-    font-weight: 300;
-    text-transform: uppercase;
-  } */
-
 /* animation */
 @keyframes fade-up {
     0% {
@@ -62,13 +35,15 @@ body {
     font-family: "Kode Mono", monospace;
     padding: 0;
 }
-
+#pic {
+    display: flex;
+    justify-content: center;
+}
 .container2, .container3, .container4, .container5, .container6, .c4 {
     /* width: 80%; */
     margin: 0 auto;
 }
 
-/* see if i can make an interactive background  */
 header {
     background-color: lightgrey; 
     border-radius: 15px;
@@ -85,7 +60,7 @@ header h1 {
 /* Nav links container */
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     list-style-type: none;
     padding: 0;
     animation: fade-down 1.5s;
@@ -131,19 +106,18 @@ a:hover {
 .container4 {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 
 .card {
     border: 2px solid grey;
     border-radius: 15px;
-    width: auto;
+    width: 350px;
     height: auto;
     text-align: center;
     background-color: lightgrey;
     padding: 10px;
     margin-bottom: 10px;
-    gap: 2rem;
 }
 
 /* contact me */
