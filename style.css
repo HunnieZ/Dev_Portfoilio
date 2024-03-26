@@ -135,6 +135,7 @@ a:hover {
 }
 
 .card {
+    border: 2px solid grey;
     border-radius: 15px;
     width: auto;
     height: auto;
@@ -142,6 +143,7 @@ a:hover {
     background-color: lightgrey;
     padding: 10px;
     margin-bottom: 10px;
+    gap: 2rem;
 }
 
 /* contact me */
