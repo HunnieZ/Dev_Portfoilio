@@ -1,6 +1,33 @@
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
+/* * {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Unica One', sans-serif;
+    background: #111;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 5rem;
+  }
+  
+  .heading {
+    color: #eee;
+    font-size: 5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  } */
+
 /* animation */
 @keyframes fade-up {
     0% {
@@ -109,12 +136,12 @@ a:hover {
 
 .card {
     border-radius: 15px;
-    width: 350px;
-    height: 350px;
+    width: 550px;
+    height: 650px;
     text-align: center;
     background-color: lightgrey;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 /* contact me */
