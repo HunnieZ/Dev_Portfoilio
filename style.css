@@ -30,12 +30,14 @@
 
 body {
     background-color: #fff;
-    color: #333;
+    color: #ddc6a4;
     margin: 20px;
     font-family: "Kode Mono", monospace;
     padding: 0;
 }
-#pic {
+
+#logo {
+    margin: 30px;
     display: flex;
     justify-content: center;
 }
@@ -45,10 +47,12 @@ body {
 }
 
 header {
-    background-color: lightgrey; 
-    border-radius: 15px;
+    position: relative;
+    width: 95%;
+    background-color: #f4eae9; 
     padding: 20px 40px;
 }
+
 
 header h1 {
     display: flex;
@@ -73,15 +77,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333;
+    color:#ddc6a4;
     text-decoration: none;
 }
 a:hover {
-    color: grey;
+    color: #333;
 }
 
-/* profile pic */
-.pic {
+/* profile logo */
+.logo {
+   
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -89,6 +94,7 @@ a:hover {
 }
 
 /* About me */
+
 .section {
     margin-top: 20px;
     padding: 20px 0;
@@ -110,45 +116,47 @@ a:hover {
 }
 
 .card {
-    border: 2px solid grey;
-    border-radius: 15px;
+    border: 2px solid #dbc3a4;
+    
     width: 350px;
     height: auto;
     text-align: center;
-    background-color: lightgrey;
+    background-color: #f4eae9;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 /* contact me */
 .btn {
-    background-color: lightgrey;
+    background-color: #f4eae9;
     padding: 20px 50px;
     color: #fff;
-    border: none;
+    border: solid 0.5px #dbc3a4 ;
     text-decoration: none;
-    border-radius: 15px;
     }
 
     .btn a {
         text-decoration: none;
-        color:#333;
+        color:#dbc3a4;
     }
     
-.btn:hover {
-    background-color: gray;
+.btn a:hover {
+    color: #333;
     }
     
 .container7 {
     text-align: center;
     font-size: x-small;
     padding: 10px 0;
-    border-radius: 15px;
 }
 
 .container7 a {
     text-decoration: none;
     color: #333;
+}
+
+p7 {
+    color: #333 
 }
 /* Media Queries Below: */
 /* When the browser is less than 1280 px wide change cards to display as flex column instead */
