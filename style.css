@@ -117,7 +117,6 @@ a:hover {
 
 .card {
     border: 2px solid #dbc3a4;
-    
     width: 350px;
     height: auto;
     text-align: center;
@@ -177,7 +176,7 @@ p7 {
     .card {
         border-radius: 15px;
         text-align: center;
-        background-color: lightgrey;
+        background-color: #f4eae9;
         padding: 15px;
         margin-bottom: 15px;
         width: 450px;
@@ -200,7 +199,7 @@ p7 {
     .card {
         border-radius: 15px;
         text-align: center;
-        background-color: lightgrey;
+        background-color: #f4eae9;
         padding: 15px;
         margin-bottom: 15px;
         width: 450px;
@@ -226,7 +225,7 @@ body {
 .card {
     border-radius: 15px;
     text-align: center;
-    background-color: lightgrey;
+    background-color: #f4eae9;
     padding: 15px;
     margin-bottom: 15px;
     width: 450px;
@@ -255,7 +254,7 @@ body {
 .card {
         border-radius: 15px;
         text-align: center;
-        background-color: lightgrey;
+        background-color: #f4eae9;
         padding: 15px;
         margin-bottom: 15px;
         width: 200px;
